@@ -1,5 +1,5 @@
 .menu-item {
-    width: calc(10rem + 10vw);
+    width: calc(15rem + 5vw);
     height: calc(15rem + 5vw);
     flex: 1 1 auto;
     display: flex;
@@ -9,10 +9,8 @@
     margin: 0 7.5px 15px;
     background-position: center;
     background-size: cover;
+    perspective: 1000px;
   
-    &.large {
-        height: calc(15rem + 10vw);
-    }
 
     &:first-child {
       margin-right: 7.5px;
@@ -25,17 +23,23 @@
     .content {
       height: 90px;
       padding: 0 25px;
+      position: relative;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      border: 1px solid black;
+
+      background-color: rgb(255, 255, 255);
+      opacity: .8; 
+      border: 2px solid black;
+      transition: all .5s ease-in-out;
   
       .title {
         font-weight: bold;
         margin-bottom: 6px;
         font-size: 22px;
-        color: #4a4a4a;
+        color: #1f1436;
+        transition: all .3s ease-in-out;
       }
   
       .subtitle {
@@ -43,5 +47,26 @@
         font-size: 16px;
       }
     }
+
+    .content:hover {
+        background-color: rgb(246, 246, 246);
+        opacity: 1;
+        transform: translateZ(50px);
+        
+
+        .title {
+            color: #fc6e6e;
+            transition-delay: 0.1s;
+        }
+    }
+
+    
   }
-  
+
+
+
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    .large{
+        background-position: 10% 5%;
+    }
+  }
