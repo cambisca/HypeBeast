@@ -1,6 +1,6 @@
 .menu-item {
-    width: 30%;
-    height: 240px;
+    width: calc(10rem + 10vw);
+    height: calc(15rem + 5vw);
     flex: 1 1 auto;
     display: flex;
     align-items: center;
@@ -11,7 +11,7 @@
     background-size: cover;
   
     &.large {
-        height: 380px;
+        height: calc(15rem + 10vw);
     }
 
     &:first-child {
