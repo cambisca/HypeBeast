@@ -5,12 +5,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
     border: 2px solid black;
     margin: 0 7.5px 15px;
     background-position: center;
     background-size: cover;
     perspective: 1000px;
-  
+
 
     &:first-child {
       margin-right: 7.5px;
@@ -19,11 +20,17 @@
     &:last-child {
       margin-left: 7.5px;
     }
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
   
     .content {
       height: 90px;
       padding: 0 25px;
-      position: relative;
+      position: absolute;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -33,13 +40,19 @@
       opacity: .8; 
       border: 2px solid black;
       transition: all .5s ease-in-out;
+
+      margin-bottom: 6px;
   
       .title {
         font-weight: bold;
         margin-bottom: 6px;
-        font-size: 22px;
+        font-size: 2rem;
+        font-weight: 800;
+        letter-spacing: .10rem;
         color: #1f1436;
         transition: all .3s ease-in-out;
+
+        font-family: 'Lobster', cursive;
       }
   
       .subtitle {
@@ -61,6 +74,14 @@
     }
 
     
+  }
+
+  .menu-item:hover {
+    overflow: hidden;
+
+    img {
+      transform: scale(1.15);
+    }
   }
 
 

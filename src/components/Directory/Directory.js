@@ -20,12 +20,12 @@ function Directory() {
             id: 3
         },
         {
-            title: 'Mens',
+            title: "Men's",
             imageUrl: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/streetwear-brands-1627934788.jpg',
             id: 5
         },
         {
-            title: 'Womens',
+            title: "Women's",
             imageUrl: 'https://image-cdn.hypb.st/https%3A%2F%2Fbae.hypebeast.com%2Ffiles%2F2018%2F03%2Fwomen-run-streetwear-brands-frankie-collective-misbhv-4.jpg?w=1600&cbr=1&q=90&fit=max',
             size: 'large',
             id: 4
