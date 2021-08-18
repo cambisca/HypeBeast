@@ -1,0 +1,52 @@
+.header {
+    width: 100%;
+    height: calc(3rem + 3vw);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .options {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: black;
+        font-family: 'Bebas Neue', cursive;
+        text-decoration: none;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .option{
+        padding: .75rem 1.10rem;
+        font-size: 1.75rem;
+        letter-spacing: .15rem;
+        font-weight: 1000;
+        transition: all .5s;
+    } 
+
+    .option:hover {
+        color: red;
+    } 
+    
+    
+}
+
+@media screen and (max-width: 510px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 1rem;
+
+        .options {
+            width: 100%;
+            font-size: 1.45rem;
+            justify-content: center;
+        }
+
+        .logo-container {
+            margin-top: 1rem;
+        }
+    }
+}
+

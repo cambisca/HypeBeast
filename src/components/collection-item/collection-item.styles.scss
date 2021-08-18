@@ -1,0 +1,33 @@
+.collection-item{
+    display: flex;
+    flex-direction: column;
+    height: calc(12rem + 15vw);
+    width: calc(10rem + 8vw);
+    align-items: center;
+    margin: 1rem;
+
+    img {
+        width: 100%;
+        height: 90%;
+        object-fit: cover;
+        border: 3px solid black;
+    }
+
+    .collection-footer {
+        display: flex;
+        justify-content: space-between;
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .collection-item {
+        height: 10rem;
+        width: 8rem;
+
+        .collection-footer {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}

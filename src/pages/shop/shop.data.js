@@ -6,32 +6,32 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+        name: 'Yankees Fitted',
+        imageUrl: 'https://cdn11.bigcommerce.com/s-1nrqf/images/stencil/500x659/products/257/377853/New-York-Yankees-On-Field-59FIFTY-Fitted-Hat__01157.1623166068.jpg?c=2',
         price: 25
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+        name: 'Retro Cyclist Cap',
+        imageUrl: 'https://static01.nyt.com/images/2015/09/03/fashion/03CYCLINGCAP1/03CYCLINGCAP1-articleLarge.jpg?quality=75&auto=webp&disable=upscale',
         price: 18
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+        name: 'Donatella Cap',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0094/2252/products/Shot03_074_300x.jpg?v=1589221174',
         price: 35
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+        name: 'Bucket Hat',
+        imageUrl: 'https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2021%2F03%2Fclot-kangol-2021-hat-capsule-0.jpg?fit=max&cbr=1&q=90&w=1125&h=750',
         price: 25
       },
       {
         id: 5,
-        name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
+        name: 'Navy Kith',
+        imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSteO5q0Y7xG802NoVVSx7018stMBsWnF2vtw&usqp=CAU',
         price: 18
       },
       {
